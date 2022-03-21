@@ -36,6 +36,10 @@ p {
     font-family: "montserrat";
 }
 
+#content {
+    padding-bottom: 10rem;
+}
+
 .hello {
     color: black;
     margin: auto;
@@ -105,7 +109,7 @@ p {
 
 .footer {
     background: black;
-    height: 5vh;
+    height: 5rem;
     position: fixed;
     bottom: 0;
     width: 100%;
