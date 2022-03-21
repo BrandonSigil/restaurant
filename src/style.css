@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'staat';
+    src: url(./fonts/Staat.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url(./fonts/Montserrat-medium.ttf);
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    background: rgb(240, 231, 219);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 45px auto;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: "montserrat";
+}
+
+.hello {
+    color: black;
+    margin: auto;
+}
+
+.button-nav {
+    border: none;
+    background: black;
+    color: rgb(240, 231, 219);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-family: 'staat';
+    font-size: 1.35rem;
+    margin: auto;
+}
+
+.button-nav:hover {
+    background: rgb(92, 92, 92);
+}
+
+.logoCont {
+    padding: 50px 50px;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+ 
+.logo {
+    font-family: 'staat';
+    font-size: 5.96rem;
+    text-align: center;
+    line-height: 90%;
+    color: rgb(240, 231, 219);
+}
+
+.menu-text {
+    font-family: "staat";
+    font-size: 1.35rem;
+    margin: auto;
+    color: rgb(240, 231, 219);
+}
+
+.hero {
+    max-width: 75vw;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.heroCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bodyCopy {
+    max-width: 1200px;
+    width: 75vw;
+    margin: auto;
+}
+
+.bodyCopy h1 {
+    font-size: 4.768rem;
+    font-family: 'staat';
+    margin: 65px auto 20px auto;
+    line-height: 1.1;
+}
+
+.footer {
+    background: black;
+    height: 5vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    align-content: center;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    margin: 45px 0 0 0;
+}
+
+.footer p {
+    color: rgb(240, 231, 219);
+    margin: 0 45px;
+    max-width: 1200px;
+    font-size: .9rem;
+}
+
+.menuGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 45px;
+    max-width: 900px;
+    margin: 75px auto 150px auto;
+}
+
+.menuGrid h2 {
+    font-size: 1.563rem;
+    margin: 20px auto 0 auto;
+    font-family: 'staat';
+}
+
+.menuGrid p {
+    font-size: .9rem;
+    margin: 8px auto 5px auto;
+}
+
+.menuImg {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.menuitem {
+    display: flex;
+}
